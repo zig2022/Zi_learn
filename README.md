@@ -1,4 +1,4 @@
-This is my University LMS clone.<br>
+This is my junior school learn clone.<br>
 
 <h3>Features:</h3><br>
 
@@ -19,11 +19,10 @@ This is my University LMS clone.<br>
 2.Nodejs.<br>
 3.Express js<br>
 4.MongoDB<br>
-5.Heroku Hosting<br>
-6.Material UI<br>
-7. React BootStrap<br>
-8.Module CSS<br>
-9.Redux, React-Redux<br>
-10.Multer and Cloudinary For photo upload<br>
+5.Material UI<br>
+6. React BootStrap<br>
+7.Module CSS<br>
+8.Redux, React-Redux<br>
+9.Multer and Cloudinary For photo upload<br>
 
 
