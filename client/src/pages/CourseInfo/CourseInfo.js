@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Container, Paper, Typography } from "@material-ui/core";
 
 import React from "react";
@@ -15,7 +16,7 @@ const CourseInfo = () => {
             <div className="d-flex justify-content-between align-items-center my-4">
               <Typography variant="h6">Course Content</Typography>
               <Typography style={{ color: "GrayText" }} variant="subtitle2">
-                Course start date: 19/09/20 Category: Jan - Jun 2021
+                Course start date: 19/09/22 Category: Jan - June 2022
               </Typography>
             </div>
             <NoticeToggle />

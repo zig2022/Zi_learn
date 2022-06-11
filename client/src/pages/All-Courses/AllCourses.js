@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import { Typography } from '@material-ui/core';
 import React,{lazy, Suspense} from 'react';
@@ -13,6 +14,7 @@ const AllCourses = () => {
                <Typography className='text-center my-3 border-bottom' variant='h3' color="primary" >
                    All Courses
                </Typography>
+               
                <Suspense  fallback={<div>Loading...</div>}>
                <CardOfAllCourse/>
                </Suspense>

@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
 import {
   Button,
-  Card,
   Divider,
   IconButton,
   Paper,
@@ -23,11 +22,9 @@ import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined"
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import CourseCard from "./CourseCard/CourseCard";
-import SideCalender from "../../components/Calender/SideCalender";
 import RightSidebar from "./RightSidebar/RightSidebar";
 
 import { useDispatch, useSelector } from "react-redux";
-import Spinner_comp from "../../components/Spinner/Spinner_comp";
 import { fetchCourseInfo } from "../../Redux/course/courseAction";
 
 const Dashboard = () => {
@@ -45,7 +42,7 @@ const Dashboard = () => {
     } else {
       dispatch(fetchCourseInfo());
     }
-  }, [pageValue]);
+  }, [courseInfo.length, dispatch, pageValue]);
 
   return (
     <div className="dashboard">
@@ -118,7 +115,7 @@ const Dashboard = () => {
                         <div className={styles.icon__style}>
                           <IconButton
                             onClick={() => {
-                              if (start==0 || end==0) {
+                              if (start===0 || end===0) {
                                 setEnd(courseInfo.length);
                                 setStart(courseInfo.length-1);
                               } else {
@@ -134,7 +131,7 @@ const Dashboard = () => {
                           </IconButton>
                           <IconButton
                             onClick={() => {
-                              if (courseInfo.length == end) {
+                              if (courseInfo.length ===end) {
                                 setStart(0);
                                 setEnd(1);
                               } else {

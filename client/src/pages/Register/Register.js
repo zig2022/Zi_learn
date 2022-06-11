@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import { Button, Container, Paper, Typography } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import { Col, Form, Row } from "react-bootstrap";
@@ -55,7 +56,7 @@ const Register = () => {
   }
 
   useEffect(() => {
-    if(user && user.role=="Student")
+    if(user && user.role==="Student")
     {
       history.push('/')
     }
@@ -68,7 +69,7 @@ const Register = () => {
       history.push('/teacher-dashboard')
     }
 
-  }, [user])
+  }, [history, user])
 
   return (
     <div style={{ fontFamily: "Poppins" }}>

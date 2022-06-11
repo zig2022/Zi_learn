@@ -1,68 +1,68 @@
 const courseData=[
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
     {
-        title:"ICE3101_12539_B",
-        name:"Analysis and Design of Algorithm ICE3101_12539_B"
+        title:"Chemistry",
+        name:"Analysis and Design of Algorithm Chemistry"
     },
 ]
 
-export default courseData
+export default courseData;

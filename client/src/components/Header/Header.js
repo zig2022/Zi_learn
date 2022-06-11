@@ -28,7 +28,7 @@ const Header = () => {
             src={Img}
             alt="logo"
           />
-          <h4>LMS</h4>
+          <h4>online study collaboration platform</h4>
         </Link>
       </div>
       <div

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -19,13 +20,14 @@ const useStyles = makeStyles({
 });
 const CardOfAllCourse = () => {
   const classes = useStyles();
+  // eslint-disable-next-line no-unused-vars
   const [enroll,setEnroll]=useState(false)
 
   const { courseInfo } = useSelector((state) => state.course);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCourseInfo());
-  }, []);
+  }, [dispatch]);
   const enrollHandler=(id)=>{
    
 
@@ -64,6 +66,7 @@ const CardOfAllCourse = () => {
                    
 
                   </CardActionArea>
+                  <CardActions/>
                 </Card>
               </Col>
             );

@@ -12,28 +12,28 @@ const RightSidebar = () => {
 
       <UpcomingEvents
         Icon={PersonIcon}
-        title="Attendance"
-        time="Thursday, 6 May, 12:00 AM"
+        title="New Events"
+        time="Thursday, 6 June, 12:00 AM"
       />
       <UpcomingEvents
         Icon={PersonIcon}
-        title="Attendance"
-        time="Thursday, 6 May, 12:00 AM"
+        title="New Events"
+        time="Thursday, 6 June, 12:00 AM"
       />
       <UpcomingEvents
         Icon={PersonIcon}
-        title="Attendance"
-        time="Thursday, 6 May, 12:00 AM"
+        title="New Events"
+        time="Thursday, 6 June, 12:00 AM"
       />
       <UpcomingEvents
         Icon={PersonIcon}
-        title="Attendance"
-        time="Thursday, 6 May, 12:00 AM"
+        title="New Events"
+        time="Thursday, 6 June, 12:00 AM"
       />
       <UpcomingEvents
         Icon={PersonIcon}
-        title="Attendance"
-        time="Thursday, 6 May, 12:00 AM"
+        title="New Events"
+        time="Thursday, 6 June, 12:00 AM"
       />
       </div>
       <SideCalender />
